@@ -2,6 +2,8 @@ import React from "react";
 import {Counter} from "./components/Counter";
 import {CounterBy} from "./components/CounterBy";
 import {CounterEffect} from "./components/CounterEffect";
+import {CounterHook} from "./components/CounterHook";
+import {CounterReducerComponent} from "./components/CounterReducerComponet";
 
 
 function App() {
@@ -12,6 +14,10 @@ function App() {
          <CounterBy initialValue={-12} />
          <hr/>
           <CounterEffect/>
+          <hr/>
+          <CounterHook />
+          <hr/>
+          <CounterReducerComponent />
       </>
   );
 }
